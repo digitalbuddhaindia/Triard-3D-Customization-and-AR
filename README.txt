@@ -62,7 +62,7 @@ Yes, you can paste the shortCodeand paste it inside Elementor's Shortcode elemen
 
 = How can I reach you, if I need any modification, customization or helps? =
 [Please follow this link to reach us directly ] 
-**[For more support](mailto:support@triard.io)**
+**[For more support](mailto:support@triard.io)**/
 **[Website URL](https://triard.io/contact-us)**
 
 
