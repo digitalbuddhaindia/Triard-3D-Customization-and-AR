@@ -7,7 +7,7 @@
  * Version: 1.0
  * Author: Digitalbuddha
  * Author URI: https://digitalbuddha.in/
- * License: GPL2
+ * License: GPL-2.0
  */
 
 
@@ -90,10 +90,9 @@ function db_3d_viewer_admin_page()
         echo '<input type="text" name="glb_url" id="glb_url" required>';
         echo '</div>';
 
-        echo '<div>';
         echo '<button type="button" onclick="uploadGLB()" class="button">Select GLB</button>';
         echo '<input type="submit" value="Upload" class="button-primary">';
-        echo '</div>';
+        
     echo '</form>';
 
     // Displaying uploaded models.
@@ -148,7 +147,7 @@ function db_3d_viewer_shortcode($atts)
         return '<button onclick="window.open(\'' . esc_url('https://phpstack-947027-3534862.cloudwaysapps.com/?modelUrl=' . $atts['glb_url']) . '\')">View 3D Model</button>';
     } else {
         // Anywhere else in WordPress.
-        return '<iframe src="' . esc_url('https://phpstack-947027-3534862.cloudwaysapps.com/?modelUrl=' . $atts['glb_url']) . '" style="width:100%; height:500px;"></iframe>';
+        return '<iframe src="' . esc_url('https://phpstack-947027-3534862.cloudwaysapps.com/?modelUrl=' . $atts['glb_url']) . '" style="width:100%; height:55svh;"></iframe>';
     }
 }
 add_shortcode('db_3d_viewer', 'db_3d_viewer_shortcode');

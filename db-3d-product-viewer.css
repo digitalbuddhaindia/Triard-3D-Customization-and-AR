@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     margin-top: 50px;
-    flex-direction: column;
     gap: 30px;
 
 }
